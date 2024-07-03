@@ -84,6 +84,8 @@ These are the acceptable values for blockType:
 |Scratch.BlockType.BOOLEAN|A block with pointy edges that reports a boolean (true or false)|mouse down|
 |Scratch.BlockType.HAT|A block that starts in response to specific conditions. Discussed later.|when loudness > 10|
 |Scratch.BlockType.EVENT|A block that starts in response exclusively to events. Discussed later.|when this sprite clicked|
+|Scratch.BlockType.LOOP|if the return value is true, the block repeats until the value is false.|forever|
+|Scratch.BlockType.CONDITIONAL|if the return value is true, the block executes the script, otherwise it does not execute it.|if...else
 
 While other BlockTypes do exist, they do not work well and will not be discussed at this time.
 
